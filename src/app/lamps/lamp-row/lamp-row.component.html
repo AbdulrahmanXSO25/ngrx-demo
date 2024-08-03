@@ -1,0 +1,6 @@
+<div class="lamp-row">
+  <div *ngFor="let lamp of lamps$ | async; let i = index"
+       class="lamp"
+       [class.on]="lamp">
+  </div>
+</div>
